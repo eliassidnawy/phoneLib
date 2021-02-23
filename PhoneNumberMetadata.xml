@@ -16874,14 +16874,14 @@
       <fixedLine>
         <possibleLengths national="7"/>
         <exampleNumber>1123456</exampleNumber>
-        <nationalNumberPattern>(01|04|05|06|07|08|09)\d{6}</nationalNumberPattern>
+        <nationalNumberPattern>^(01|04|05|06|07|08|09)\d{6}</nationalNumberPattern>
       </fixedLine>
       <!-- We only validate the first three digits here, since the ranges are growing rapidly.
            The 79[02-9] prefixes were added from bug reports and numbers found online. -->
       <mobile>
         <possibleLengths national="7,8"/>
         <exampleNumber>71123456</exampleNumber>
-        <nationalNumberPattern>(03|70|71|76|78|79|80|81)\d{6}</nationalNumberPattern>
+        <nationalNumberPattern>^(03|70|71|76|78|79|80|81)\d{6}</nationalNumberPattern>
       </mobile>
       <premiumRate>
         <possibleLengths national="8"/>
